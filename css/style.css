@@ -1,0 +1,173 @@
+/*font-family: 'PT Sans', sans-serif;*/
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-family: 'PT Sans', sans-serif;
+color: #010101;
+}
+/*header start */
+header{
+background-color: #fcdb00;
+padding: 25px 0;
+}
+.menu ul li a{
+font-weight: 700;
+font-size: 22px;
+padding: 0 40px !important;
+transition: .3s;
+}
+.menu ul li:last-child a{
+padding-right: 0 !important;
+}
+.menu ul li a:hover{
+color: white !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+background-color: #fcdb00;
+padding-bottom: 100px;
+}
+.Slider_content{
+margin-top: 60px;
+}
+.Slider_content h1{
+margin: 0;
+font-weight: 700;
+font-size: 32px;
+}
+.Slider_content h2{
+font-weight: 400;
+font-size: 20px;
+color: #313841;
+letter-spacing: 1px;
+word-spacing: 2px;
+margin: 20px 0;
+}
+.Slider_content p{
+margin: 0;
+color: #555555;
+word-spacing: 1px;
+line-height: 20px;
+margin-bottom: 35px;
+}
+.slider_icon{
+font-size: 40px;
+}
+.slider_icon i{
+margin: 30px 30px 0 0;
+}
+.slider_icon i:hover{
+font-size: 30px;
+cursor: pointer;
+}
+.Slider_img{
+}
+.cid{
+bottom: -80px;
+}
+.cid li{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: red;
+}
+/*slider end*/
+/*Feature  Start*/
+.feature{
+padding-top: 80px;
+padding-bottom: 100px;
+}
+.c_title{}
+.c_h1{
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.c_p{
+font-size: 20px;
+color: #313841;
+line-height: 25px;
+word-spacing: 2px;
+}
+.m_t_60{
+margin-top: 60px;
+}
+.s_icon{
+font-size: 50px;
+}
+.s_text{}
+.s_text h2{
+font-size: 22px;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 13px;
+}
+.s_text p{
+color: #898989;
+letter-spacing: 1px;
+}
+/*Feature  end*/
+/*Contact  start*/
+.contact{
+padding-top: 80px;
+padding-bottom: 100px;
+background-color: #010101;
+}
+.yellow{
+color: #fcdb00;
+}
+.ash{
+color: #898989;
+}
+.f_form{
+margin-top: 30px;
+margin-bottom: 60px;
+}
+.f_email{
+width: 100%;
+height: 50px;
+font-family: 'PT Sans', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #898989 !important;
+border: none;
+}
+.f_emai:focus{
+outline: 0;
+box-shadow: none;
+}
+.f_submit{
+width: 100%;
+height: 50px;
+background-color: #fcdb00;
+font-family: 'PT Sans', sans-serif;
+font-weight: 700;
+color: #010101;
+text-transform: uppercase;
+}
+.f_submit:focus{
+outline: 0;
+box-shadow: none;
+}
+.f_submit:hover{
+background-color: white;
+}
+/*Contact  end*/
+/*Footer  start*/
+footer{
+padding-bottom: 100px;
+background-color: #010101;
+}
+.f_1{
+color: white;
+}
+.f_1 p{
+margin: 0;
+}
+.f_1 p a{
+color: white !important;
+}
+/*Footer  end*/
